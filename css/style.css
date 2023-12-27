@@ -1,0 +1,723 @@
+@import url('https://fonts.cdnfonts.com/css/cardium-a');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'cardium-a';
+}
+
+
+body {
+    position: relative;
+}
+
+header {
+    background-color: #BDBDBD;
+    color: #161616;
+    width: 100px;
+    height: 100px;
+    padding-right: 100%;
+    position: absolute;
+}
+
+/*nav*/
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 350px;
+    padding-right: 0px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    right: 250px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    color: #161616;
+    text-decoration: none;
+}
+
+.logotipo {
+    text-align: left;
+    height: 10px;
+    width: 10px;
+}
+
+.logo {
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin-left: 30px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.redes {
+    text-align: right;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+.facebook {
+    height: 40px;
+    width: 40px;
+    margin-right: 25px;
+}
+
+.instagram {
+    height:  40px;
+    width: 40px;
+    margin-right: 25px;
+}
+
+.whatsapp {
+    height: 40px;
+    width: 40px;
+    margin-right: 25px;
+}
+
+.bandera{
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.italia {
+    height: 80px;
+    width: 15px;
+    margin-right: 225px;
+}
+
+/*inicio*/
+
+.fondo-inicio {
+    background-image: url(../assets/inicio/Fondo\ INICIO.jpg);
+    width: 1349px;
+    height: 1000px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+/*menu*/
+
+.fondo-menu {
+    background-image: url(../assets/menu/Fondo\ MENU.jpg);
+    width: 1359px;
+    height: 2000px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-linea1 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1200px;
+    height: 100%;
+    max-height: 500px;
+    padding-left: 20px;
+    position: absolute;
+}
+
+.card-linea1 {
+    width: 100%;
+    margin: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.card-linea1 .container-linea1 {
+    padding: 15px;
+    text-align: center;
+}
+
+.container-linea2 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    height: 100%;
+    max-height: 500px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.card-linea2 {
+    width: 100%;
+    margin: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.card-linea2 .container-linea2 {
+    padding: 15px;
+    text-align: center;
+}
+
+.container-linea3 {
+    width: 100%;
+    display: flex;
+    margin-top: 1000px;
+    height: 100%;
+    max-height: 500px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.card-linea3 {
+    width: 100%;
+    margin: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.card-linea3 .container-linea3 {
+    padding: 15px;
+    text-align: center;
+}
+
+.container-pizza1 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1040px;
+    height: 100%;
+    max-height: 500px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.card-muzza {
+    width: 300px;
+    height: 300px;
+    margin-left: 70px;
+    text-align: start;
+    margin-bottom: 200px;
+}
+
+.muzza1{
+    color: #161616;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #009246;
+    border-radius: 100px;
+    left: 155px;
+}
+
+.muzza2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #CE2B37;
+    border-radius: 100px;
+    top: 430px;
+    left: 150px;
+}
+
+.card-napolitana {
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 20px;
+}
+
+.napolitana1{
+    color: #161616;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #009246;
+    border-radius: 100px;
+    left: 540px;
+}
+
+.napolitana2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #CE2B37;
+    border-radius: 100px;
+    top: 430px;
+    left: 600px;
+}
+
+.card-margherita {
+    width: 300px;
+    height: 300px;
+    margin-left: 130px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 10px;
+}
+
+.margherita1{
+    color: #161616;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #009246;
+    border-radius: 100px;
+    left: 975px;
+}
+
+.margherita2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #CE2B37;
+    border-radius: 100px;
+    top: 430px;
+    left: 1040px;
+}
+
+
+.container-pizza2 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 220px;
+    height: 100%;
+    max-height: 500px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.card-jamonymorron {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    text-align: start;
+    margin-bottom: 200px;
+    margin-top: 130px;
+}
+
+.jamon-morron1{
+    color: #161616;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #009246;
+    border-radius: 60px;
+    left: 100px;
+    bottom: 430px;
+}
+
+.jamon-morron2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #CE2B37;
+    border-radius: 100px;
+    top: 430px;
+    left: 140px;
+}
+
+.card-cuatroquesos {
+    width: 300px;
+    height: 300px;
+    margin-left: 160px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 70px;
+}
+
+.cuatroquesos1{
+    color: #161616;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #009246;
+    border-radius: 100px;
+    left: 560px;
+    bottom: 430px;
+}
+
+.cuatroquesos2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #CE2B37;
+    border-radius: 100px;
+    top: 430px;
+    left: 580px;
+}
+
+.card-pepperoni {
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 10px;
+}
+
+.pepperoni1{
+    color: #161616;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #009246;
+    border-radius: 100px;
+    left: 1010px;
+    top: 690px;
+}
+
+.pepperoni2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #CE2B37;
+    border-radius: 100px;
+    top: 1135px;
+    left: 1045px;
+}
+
+.container-pizza3 {
+    width: 100%;
+    display: flex;
+    margin-top: 620px;
+    height: 100%;
+    max-height: 500px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.card-tomate {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    text-align: start;
+    margin-bottom: 200px;
+    margin-top: 130px;
+}
+
+.tomate1{
+    color: #161616;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #009246;
+    border-radius: 60px;
+    left: 100px;
+    bottom: 450px;
+}
+
+.tomate2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #CE2B37;
+    border-radius: 100px;
+    top: 440px;
+    left: 130px;
+}
+
+.card-jamon {
+    width: 300px;
+    height: 300px;
+    margin-left: 160px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 280px;
+}
+
+.jamon1{
+    color: #161616;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #009246;
+    border-radius: 100px;
+    left: 565px;
+    bottom: 450px;
+}
+
+.jamon2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #CE2B37;
+    border-radius: 100px;
+    top: 440px;
+    left: 590px;
+}
+
+.card-especial {
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 120px;
+}
+
+.especial1{
+    color: #161616;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #009246;
+    border-radius: 100px;
+    left: 990px;
+    bottom: 450px;
+}
+
+.especial2{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #CE2B37;
+    border-radius: 100px;
+    top: 440px;
+    left: 1050px;
+}
+
+/*nosotros*/
+
+.fondo-nosotros {
+    background-image: url(../assets/nosotros/Fondo\ NOSOTROS.jpg);
+    width: 1349px;
+    height: 1000px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.texto-nosotros-1 {
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 600px;
+    background-color: #BDBDBD;
+    font-size: 40px;
+    border-radius: 40px;
+    opacity: .7;
+}
+
+.texto-nosotros-2 {
+    text-align: center;
+    top: 300px;
+    right: 150px;
+    left: 400px;
+    width: 600px;
+    height: 420px;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #161616;
+    border-radius: 15px;
+    justify-content: center;
+    position: absolute;
+    opacity: .8;
+}
+
+/*promociones*/
+
+.fondo-promociones {
+    background-image: url(../assets/promociones/Fondo\ PROMOCIONES.jpg);
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.texto-promocion {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    bottom: 500px;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.promo1{
+    width: 600px;
+    height: 600px;
+    margin-right: 40px;
+    border-radius: 10%;
+    margin-left: 70px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 10px;
+}
+
+.promo2{
+    width: 600px;
+    height: 595px;
+    border-radius: 10%;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 10px;
+}
+
+/*contacto*/
+
+.fondo-contacto1 {
+    background-image: url(../assets/contacto/fondo\ contacto\ 2.png);
+    width: 1365px;
+    height: 1100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.fondo-contacto2 {
+    margin-right: 650px;
+}
+
+.formulario{
+    margin-left: 100px;
+    position: absolute;
+    bottom: 300px;
+    right: 150px;
+    background-color: #BDBDBD;
+    margin-top: 200px;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 400px;
+}
+
+
+.asunto{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 110px;
+}
+
+.nombre-apellido{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+.email{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+.mensaje{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    margin-left: 110px;
+}
+
+.boton {
+    left: 110px;
+    color: #FFFFFF;
+    background-color: #CE2B37;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 25px;
+}
+
+
+
+
+/*footer*/
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 70px;
+    font-size: 20px;
+}
